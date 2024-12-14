@@ -73,7 +73,7 @@
 
 const io = require('socket.io')(8000, {
     cors: {
-        origin: "http://localhost:5174", // Replace with your front-end's origin
+        origin: "https://chat-app-steel-eight.vercel.app", // Replace with your front-end's origin
         methods: ["GET", "POST"],
         credentials: true
     }
